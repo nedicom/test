@@ -10,7 +10,7 @@
         <!-- Bulma CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
         <!-- CKEditor  -->
-        <script src="https://cdn.ckeditor.com/ckeditor5/35.1.0/balloon-block/ckeditor.js"></script>
+		<script src="https://cdn.ckeditor.com/ckeditor5/22.0.0/classic/ckeditor.js"></script>
 
 
     </head>
@@ -18,8 +18,8 @@
     <!-- Тело страницы  сайта -->
     <body>
 
-        <?php include $_SERVER["DOCUMENT_ROOT"] . '/test/src/header.php';?>
-        <?php include $_SERVER["DOCUMENT_ROOT"] . '/test/pages/addarticlebody.php';?>
-        <?php include $_SERVER["DOCUMENT_ROOT"] . '/test/src/footer.php';?>
+        <?php include $_SERVER["DOCUMENT_ROOT"] . '/src/header.php';?>
+        <?php include $_SERVER["DOCUMENT_ROOT"] . '/pages/addarticlebody.php';?>
+        <?php include $_SERVER["DOCUMENT_ROOT"] . '/src/footer.php';?>
       </body>
 </html>
