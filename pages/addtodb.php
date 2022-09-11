@@ -9,12 +9,16 @@
 
         $id = $_POST['id'];
         $body = $_POST['body'];
+		echo $_POST['body'];
+		echo 'test';
 
-    if(!empty($_POST['id'])) {
+
+    if(!empty($id)) {
       $query = "UPDATE `users` SET body = $body where id = $id";
                   }
           else{
-            $query = "INSERT INTO `users`( body ) VALUES ($body)";
+				$query = "INSERT INTO `articles` (`body`) VALUES ('$body')";
             }
+
     $result   = mysqli_query($con, $query);
 ?>
