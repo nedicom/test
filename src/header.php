@@ -26,12 +26,12 @@ $(document).ready(function() {
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">
+        <a class="navbar-item" href ="#">
           Home
         </a>
 
-        <a class="navbar-item">
-          Documentation
+        <a class="navbar-item" href="pages/addarticle.php">
+          Добавить практику
         </a>
 
         <div class="navbar-item has-dropdown is-hoverable">
